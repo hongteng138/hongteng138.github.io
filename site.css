@@ -1,0 +1,214 @@
+/**
+* 整个站点共用
+*/
+body {
+    color: white;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+@media screen and (max-width: 1000px) {
+    body {
+        background: url(/ju/img/bg.png) top no-repeat;
+    }
+}
+
+body {
+    background-color: rgb(43, 43, 43)
+}
+
+.container-fluid .row {
+    padding: 10px;
+}
+
+ul {
+    margin: 0;
+}
+
+ul.clear:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+a {
+    color: white;
+}
+
+.modal-content {
+    top: 10em;
+}
+
+.col-self {
+    padding-right: 0;
+    padding-left: 0;
+    margin-bottom: 1.5rem;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+    color: inherit;
+    outline: none;
+    box-shadow: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+    outline: none;
+    box-shadow: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: inherit;
+    outline: none;
+    box-shadow: none;
+}
+
+/** tab统一样式start */
+.tab_nav {
+    margin-bottom: 5px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    background: white;
+}
+
+.tab_nav a {
+    display: block;
+    width: 25%;
+    float: left;
+    font-size: 15px;
+    color: #000;
+}
+
+.tab_nav a.tab_active span {
+    border-bottom: solid 3px #e02e24;
+    color: #e02e24;
+    height: 45px;
+    display: inline-block;
+}
+
+/** tab统一样式end */
+.clear {
+    clear: both;
+}
+
+.block_border {
+    border: 1px solid #ebebed;
+    border-radius: 5px;
+}
+
+.main .page {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main .page .btn {
+    width: 35%;
+    line-height: 4rem;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.btn-submit {
+    display: block;
+    background: linear-gradient(90deg, #f8e0ac, #edb872);
+    border-radius: 10px;
+    width: 100%;
+    line-height: 4.5rem;
+    color: #5a4421;
+    text-align: center;
+}
+
+/*table 格式*/
+.m-list .tb-header, .m-list .tb-body div {
+    display: flex;
+}
+
+.m-list .tb-header span, .m-list .tb-body div span {
+    margin: 1rem auto;
+}
+
+.m-list .tb-header {
+    /* border: 1px solid rgb(169 169 169); */
+}
+
+.m-list .tb-body {
+    /* border-left: 1px solid rgb(169 169 169); */
+    /* border-right: 1px solid rgb(169 169 169); */
+    /* border-bottom: 1px solid rgb(169 169 169); */
+}
+
+.m-list .tb-header {
+    background: #47474782;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.m-list .tb-body {
+    background: #2d30356e;
+    border-radius: 0 0 1rem 1rem;
+}
+
+.m-list .tb-body div span {
+    color: white;
+    font-size: 1.2rem;
+    line-height: 2.2rem;
+}
+
+.m-list .tb-body div {
+    border-bottom: 1px solid rgb(0 0 0);
+}
+
+.m-list .tb-body div:last-child {
+    border-bottom: none;
+}
+
+.m-list .tb-header span, .m-list .tb-body div span {
+    flex: 1;
+}
+
+.m-list .tb-header span:first-child, .m-list .tb-body div span:first-child {
+    padding-left: 1rem;
+}
+
+.m-list .tb-header span:last-child, .m-list .tb-body div span:last-child {
+    padding-right: 1rem;
+    text-align: right;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.row .panel {
+    background: none;
+    font-size: 1.2rem;
+}
+
+.row .panel-heading {
+    background: none;
+    color: white;
+}
+
+.row .panel-heading .panel-title {
+    font-size: 1.2rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.btn-page-block {
+    border-bottom: none !important;
+}
+
+.btn-page-block .tr {
+    display: flex;
+    justify-content: space-around;
+}

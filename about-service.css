@@ -1,0 +1,74 @@
+.new img {
+    border-radius: 10px;
+    width: 100%;
+    height: 15rem;
+}
+
+.description h3 {
+    border-left: #2bf solid 2px;
+}
+
+h3 {
+    font-size: 2rem;
+    line-height: 2rem;
+    padding-left: 1rem;
+    padding-top: 4px;
+}
+
+.particular h3 {
+    border-left: #eec67f solid 2px;
+}
+
+.particular .tr {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.particular .tr img {
+    width: 4.5rem;
+}
+
+.particular .tr .text {
+    margin-left: 2rem;
+}
+
+.particular .tr .text .detail {
+    color: #999;
+}
+
+.level h3 {
+    border-left: #59b868 solid 2px;
+}
+
+.cooperation h3 {
+    border-left: #59b868 solid 2px;
+}
+
+.cooperation .list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 1rem;
+    line-height: 1.2rem;
+}
+
+.cooperation .list > div {
+    display: flex;
+    justify-content: flex-start;
+    width: 27vw;
+    align-items: center;
+    background: #474747;
+    margin-top: 14px;
+    height: 4rem;
+    padding: 0 5px;
+}
+
+.cooperation .list div div {
+    display: inline-block;
+    margin-left: 6px;
+}
+
+.cooperation .list div img {
+    width: 2rem;
+}

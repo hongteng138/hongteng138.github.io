@@ -1,0 +1,74 @@
+/**
+* 主要布局文件css
+*/
+body {
+    padding-bottom: 50px;
+}
+
+.row.header .col-self {
+    margin-bottom: 0;
+}
+
+.row.header a {
+    display: flex;
+    align-items: center;
+}
+
+.row.header .logo {
+    width: 3.5rem;
+}
+
+.row.header a div {
+    margin-left: 2rem;
+    font-size: 3rem;
+    color: black;
+    font-weight: bold;
+}
+
+.footer .nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .nav li a span, .footer .nav li a i {
+    width: 100%;
+    display: block;
+}
+
+.footer .nav li a {
+    text-align: center;
+    color: rgb(153, 153, 153);
+    font-size: 1.3rem;
+}
+
+.footer .nav li {
+    padding-top: 6px;
+    padding-bottom: 2px;
+    flex: 1;
+}
+
+.navbar .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.footer .nav > li > a {
+    padding: 4px 0 2px 0;
+}
+
+.footer .nav > li.active > a {
+    background: none;
+    color: rgb(238, 198, 127);
+}
+
+.footer .nav > li > a:hover, .footer .nav > li > a:focus {
+    background: none;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    background: none;
+}
+
+.navbar.footer {
+    background: #2e2e2e;
+}
